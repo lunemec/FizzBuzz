@@ -36,18 +36,23 @@ How to run
 ----------
 
 Python:
+
     python fizzbuzz.py
 
 Haskell:
+
     ghci fizzbuzz.hs
     *Main> main
 
 Ruby:
+
     ruby fizzbuzz.rb
 
 Go:
+
     go run fizzbuzz.go
 
 Java:
+
     javac fizzbuzz.java
     java fizzbuzz
