@@ -46,8 +46,7 @@ Haskell:
 
 D:
 
-    dmd fizzbuzz.d
-    ./fizzbuzz
+    dmd -run fizzbuzz.d
 
 Ruby:
 
