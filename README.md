@@ -44,6 +44,10 @@ Haskell:
     ghci fizzbuzz.hs
     *Main> main
 
+D:
+    dmd fizzbuzz.d
+    ./fizzbuzz
+
 Ruby:
 
     ruby fizzbuzz.rb
