@@ -20,7 +20,7 @@ string fizzBuzz(int num) {
     stdout */
 void main() 
 {
-    for (int i = 1; i <= 100; ++i) {
+    foreach (i; 1..100) {
         writeln(fizzBuzz(i));
     }
 }
