@@ -45,6 +45,7 @@ Haskell:
     *Main> main
 
 D:
+
     dmd fizzbuzz.d
     ./fizzbuzz
 
