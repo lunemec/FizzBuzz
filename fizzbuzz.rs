@@ -1,5 +1,3 @@
-
-
 fn fizz_buzz(number: i8) -> String {
 	if number % 3 == 0 && number % 5 ==0 {
 		return "FizzBuzz".to_string();
