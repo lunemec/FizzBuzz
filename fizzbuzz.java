@@ -1,22 +1,31 @@
 public class fizzbuzz
 {
-    public static void main(String[] args)
+    public static String fizzBuzz(int number)
     {
-        for(int i=0; i <= 100; i++)
-        {
-            if (i % 3 == 0 & i % 5 == 0)
+        /** If `num` is dividable by 3 and 5, return "FizzBuzz", if it is dividable by 3,
+        * return "Fizz", if it is dividable by 5, return "Buzz", for all the other
+        * cases, return the number. */
+        if (number % 3 == 0 & number % 5 == 0)
             {
-                System.out.println("FizzBuzz");
-            } else if (i % 3 == 0)
+                return "FizzBuzz";
+            } else if (number % 3 == 0)
             {
-                System.out.println("Fizz");
-            } else if (i % 5 == 0)
+                return "Fizz";
+            } else if (number % 5 == 0)
             {
-                System.out.println("Buzz");
+                return "Buzz";
             } else
             {
-                System.out.println(i);
+                return Integer.toString(number);
             }
+    }
+    public static void main(String[] args)
+    {
+        /** Iterate numbers from 1 to 100 and write result of `fizzBuzz` function to
+        * stdout. */
+        for(int i=1; i <= 100; i++)
+        {
+            System.out.println(fizzbuzz.fizzBuzz(i));
         }
     }
 }

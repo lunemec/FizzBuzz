@@ -17,8 +17,8 @@ string fizzBuzz(int num) {
 }
 
 /** Iterate numbers from 1 to 100 and write result of `fizzBuzz` function to
-    stdout */
-void main() 
+    stdout. */
+void main()
 {
     foreach (i; 1..101) {
         writeln(fizzBuzz(i));
