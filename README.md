@@ -60,3 +60,8 @@ Java:
 
     javac fizzbuzz.java
     java fizzbuzz
+
+Rust:
+
+    rustc fizzbuz.rs
+    ./fizzbuzz
