@@ -16,7 +16,7 @@ fn fizz_buzz(number: i8) -> String {
 /// Iterate numbers from 1 to 100 and write result of `fizzBuzz` function to
 /// stdout.
 fn main() {
-	for number in 1..100 {
+	for number in 1..101 {
 		println!("{}", fizz_buzz(number))
 	}
 }
